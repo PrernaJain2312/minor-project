@@ -21,4 +21,4 @@ io.on('connection', function(socket) {
 	});
 });
 
-http.listen(port);
+module.exports = app;
